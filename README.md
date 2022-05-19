@@ -1,9 +1,5 @@
-Playing around with S&P 500 data.
+## Unpacking the S&P 500
 
-Still want to try out better measures of volatility and predicting stock prices based on previous day(s) with hierarchical models and supervised learning models.
+I am exploring the S&P 500. How has it changed over time? How much variation is there across sectors and companies? Do prices in the previous day(s) predict future prices?
 
-Data downloaded from:
-
- https://www.kaggle.com/datasets/camnugent/sandp500?resource=download&select=individual_stocks_5yr
-
-https://github.com/datasets/s-and-p-500-companies
+I started exploring in R using Kaggle data. I then discovered the [yfinance](https://pypi.org/project/yfinance/) library in Python. I will start using that data, which covers more years.
